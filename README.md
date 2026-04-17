@@ -20,5 +20,22 @@ An intelligent chatbot that answers user queries based on PDF documents using Re
 ---
 ## Installation 
 1. **Clone the Repository**
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+```
+git clone https://github.com/SHRIYA-Dscience/ChatBot-Work.git
+cd ChatBot-Work
+```
+2. **Create Virtual Environment**
+```
+python -m venv venv
+
+# Mac/Linux
+source venv/bin/activate  
+
+# Windows
+venv\Scripts\activate
+```
+3. **Install Dependencies**
+```
+pip install -r requirements.txt
+```
+---
