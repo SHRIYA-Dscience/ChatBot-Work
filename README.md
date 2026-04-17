@@ -17,7 +17,6 @@ An intelligent chatbot that answers user queries based on PDF documents using Re
 - Streamlit
 - Embedding Model: sentence-transformers/paraphrase-MiniLM-L6-v2
 - LLM: distilgpt2 (can be upgraded)
----
 ## Installation 
 1. **Clone the Repository**
 ```
@@ -38,4 +37,17 @@ venv\Scripts\activate
 ```
 pip install -r requirements.txt
 ```
----
+## Create Vector Store
+Place your PDF files inside the Data/ folder and run:
+```
+python ingest.py
+```
+## Run the Chatbot 
+```
+streamlit run app.py
+```
+## Usage 
+1. Upload or place PDF documents in Data/
+2. Run ingestion script
+3. Start chatbot UI
+4. Ask questions related to your documents
