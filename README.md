@@ -16,4 +16,9 @@ An intelligent chatbot that answers user queries based on PDF documents using Re
 - Hugging Face Transformers
 - Streamlit
 - Embedding Model: sentence-transformers/paraphrase-MiniLM-L6-v2
-- LLM: distilgpt2 (can be upgraded) 
+- LLM: distilgpt2 (can be upgraded)
+---
+## Installation 
+1. **Clone the Repository**
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
